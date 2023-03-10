@@ -1,0 +1,155 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    padding: 20px;
+    margin-bottom: 100px;
+    justify-content: space-between;
+}
+
+.icon-logo{
+    width: 40px;
+    height: 40px;
+}
+
+section{
+    margin-right: 10px;
+    flex-direction: column;
+    flex-basis: 200px;
+    justify-content: space-between;
+    text-align: center;
+    padding-bottom: 10px;
+}
+section h4{
+    color: aqua;
+    padding-bottom: 20px;
+    margin-top: 12px;
+    text-align: center;
+}
+section h4:hover{
+    color: white;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+img{
+    cursor: pointer;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.659);
+    border-radius: 5px;
+    max-width: 100%;
+    
+}
+
+section a:hover{
+    color: white;
+    transition: ease-in-out 0.2s;
+}
+
+section img:hover{
+    opacity: 0.4;
+    transition: ease-in-out 0.2s;
+    
+}
+
+a img:hover{
+    opacity: 0.4;
+    transition: ease-in-out 0.25s;
+}
+
+section a{
+    display: flex;
+    align-items:center;
+    
+}
+
+h2{
+    color: aqua;
+    float: left;
+    margin-left: 10%;
+    
+}
+
+
+
+/* FOOTER */
+footer{
+    background-color: #222;
+    padding: 16px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer span{
+    font-size: 0.8em;
+    font-weight: 200;
+    transition: 0.15s ease-in;
+    color: aqua;
+}
+
+footer span:hover{
+    color: white;
+}
+
+
+
+/* RESPONSIVE */
+
+@media (max-width: 700px) {
+    header {
+        flex-direction: column;
+    }
+
+    header nav {
+        margin: 16px;
+    }
+
+    header h1 {
+        font-size: 2.2em;
+    }
+
+    header nav a {
+        font-size:1.2em;
+    }
+    .container{
+        display: flex;
+        flex: 1;
+        padding: 20px;
+        align-items: center;
+        justify-content: center;
+        
+        
+    }
+
+    section a{
+        display: flex;
+        align-items:center;
+        flex-wrap: wrap;
+    }
+    img{
+        width: 250px;
+    }
+    section{
+        padding-bottom: 20px;
+    }
+    section h4{
+        margin-left: 30px;
+    }
+
+}
+
+@media only screen and (max-width: 420px){
+    img{
+        width: 10px;
+    }
+
+    .title-small{
+        font-size: 20px;
+    }
+}

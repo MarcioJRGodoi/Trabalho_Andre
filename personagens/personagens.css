@@ -1,0 +1,53 @@
+form{
+    max-width: 40%;
+    margin: auto;
+    padding-bottom: 50px;
+    height: 100vh;
+    
+}
+
+.form-check {
+    color: white;
+    display: flex;
+    background-color: #222;
+    padding: 10px;
+    padding-bottom: 35px;
+}
+.form-check-label{
+    float: left;  
+}
+
+.form-color{
+    background-color: #222;
+}
+
+
+
+.form{
+    margin-top: 10%;
+}
+
+
+.n{
+    display: flex;
+    float: left;
+    text-decoration: none;
+    color: aqua;
+}
+
+.body{
+    background-color: #161a21;
+}
+
+.col-form-label-lg{
+    color: white;
+}
+
+.form-control{
+    background-color: #222;
+    padding: 10000px;
+}
+
+.form-floating{
+    text-align: center;
+}
