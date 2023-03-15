@@ -21,6 +21,7 @@
     
     <!-- javascript -->
     <script src="../js/personagens.js"></script>
+    <script src="../js/form.js"></script>
     
     <title>Site legal de filmes eba</title>
 </head>
@@ -35,20 +36,20 @@
     </header>
     <body class="body">
         <!-- Formulario -->
-        <form class="form" method="post">
+        <form id="myForm" class="form" method="post">
 
             <div class="form-floating mb-3">
                 <input type="text" class="form-control form-color" id="floatingInput" placeholder="Nome" name="Nome">
-                <label for="floatingInput">Nome do Personagem</label>
+                <label for="Nome">Nome do Personagem</label>
               </div>
 
               <div class="form-floating mb-3">
                 <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com" name="Cidade">
-                <label for="floatingInput">Cidade Natal</label>
+                <label for="Cidade">Cidade Natal</label>
               </div>
 
               <div class="input-group mb-3">
-                <label class="input-group-text" for="inputGroupSelect01">Classes</label>
+                <label class="input-group-text" for="Classe">Classes</label>
                 <select class="form-select form-color" id="inputGroupSelect01" name="Classe">
                   <option selected></option>
                   <option value="1">Guerreiro</option>
@@ -59,7 +60,7 @@
               </div>
 
               <div class="input-group mb-3">
-                <label class="input-group-text" for="inputGroupSelect01">Raça</label>
+                <label class="input-group-text" for="Raça">Raça</label>
                 <select class="form-select" id="inputGroupSelect01" name="Raça">
                   <option selected></option>
                   <option value="Humano">Humano</option>
@@ -70,7 +71,7 @@
               </div>
 
               <div class="input-group mb-3">
-                <label class="input-group-text" for="inputGroupSelect01">Armas</label>
+                <label class="input-group-text" for="Arma">Armas</label>
                 <select class="form-select" id="inputGroupSelect01 " name="Arma">
                   <option selected></option>
                   <option value="Espada">Espada</option>
@@ -82,11 +83,11 @@
 
               <div class="form-check form-switch">
                 <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" name="Tutorial">
-                <label class="form-check-label" for="flexSwitchCheckDefault">Realizar Tutorial?</label>
+                <label class="form-check-label" for="Tutorial">Realizar Tutorial?</label>
               </div>
               <button type="submit" class="btn btn-primary">Enviar</button>
         </form>
-        
+
     </body>
     <footer><span>
         &copy; Filmes Legais, 2023 - Todos os direitos reservados.
